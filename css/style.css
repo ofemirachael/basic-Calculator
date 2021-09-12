@@ -1,0 +1,25 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-image: url(../img/pexels-henry-&-co-1939485.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.answer-section {
+  width: 100%;
+  height: 200px;
+}
+.calculationarea {
+  width: 80%;
+  margin: auto;
+}
+.numbercard {
+  height: 55px;
+  width: 55px;
+  box-shadow: 3px 3px #e3e3e3;
+  border-radius: 45px;
+  border: 1px solid #e3e3e3;
+  text-align: center;
+}
