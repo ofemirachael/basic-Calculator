@@ -1,6 +1,8 @@
 let inputValue = document.querySelectorAll(".calcitem");
 let calculationsection = document.querySelector('.calcsection');
 let answerspace = document.querySelector('.answerarea');
+let cleardata = document.querySelector('#clear');
+let calc = "";
 
 inputValue.forEach(input => input.addEventListener('click', function(){
 
@@ -13,27 +15,31 @@ inputValue.forEach(input => input.addEventListener('click', function(){
 clear = () => {
 
     calculationsection.textContent = " ";
-    answerspace.textContent = " ";
+    answerspace.textContent = "0";
 
 }
 
+cleardata.addEventListener('click', function(){
+    clear();
+});
+
+
 multiply = () => {
-
-
+ let multiplyValue = inputValue * (calc + 1);
 }
 
 addition = () => {
-
+  let addedvalue = inputValue + calc;
 
 }
 
 subtraction = () => {
-
+    let minusvalue = inputValue + calc;
 
 }
 
 division = () => {
-
+    let dividevalue = calc / inputValue;
 
 }
 
@@ -53,7 +59,7 @@ piecalc = () => {
 }
 
 degcalc = () => {
-    
+
 }
 
 exponentital = () => {
