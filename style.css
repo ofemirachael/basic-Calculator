@@ -1,0 +1,30 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.mainbg {
+  background-color: hsl(222, 26%, 31%);
+}
+.calchead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+.calcheading {
+  color: #fff;
+}
+.togglediv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  gap: 20px;
+}
+#calctoggle {
+  width: 50px;
+  border: 1px solid green;
+}
