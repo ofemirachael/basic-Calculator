@@ -105,6 +105,9 @@ p {
   font-size: 32px;
   font-weight: 700;
 }
+.keybtn:hover {
+  background-color: hsl(0, 0%, 100%);
+}
 
 .keydel {
   background-color: hsl(225, 21%, 49%);
